@@ -2857,7 +2857,7 @@
 		)
 		(property "Value" "2.7k"
 			(at 5.08 2.37 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "320fc0eb-8044-419c-abfd-e239fb7e2390")
 			(effects
 				(font
