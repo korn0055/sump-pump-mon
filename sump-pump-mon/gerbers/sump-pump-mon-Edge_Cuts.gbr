@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*%
+%TF.CreationDate,2025-04-03T23:22:05-05:00*%
+%TF.ProjectId,sump-pump-mon,73756d70-2d70-4756-9d70-2d6d6f6e2e6b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2025-04-03 23:22:05*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X111760000Y-17780000D02*
+X223520000Y-17780000D01*
+X223520000Y-78740000D01*
+X111760000Y-78740000D01*
+X111760000Y-17780000D01*
+M02*
