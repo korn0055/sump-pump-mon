@@ -188,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.5,
         1.0,
         1.5,
         2.0
@@ -505,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sump-pump-mon.step",
       "svg": "",
       "vrml": ""
     },
