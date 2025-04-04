@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers")
 		)
 	)
 	(net 0 "")
@@ -1495,8 +1495,8 @@
 			)
 		)
 		(property "Value" "330"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
+			(at -0.47 2.37 0)
+			(layer "F.SilkS")
 			(uuid "cfaf8882-6b9f-4407-9a8b-7bfe2830276e")
 			(effects
 				(font
@@ -2124,8 +2124,8 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 5.08 2.37 90)
-			(layer "F.Fab")
+			(at 7.19 2.34 90)
+			(layer "F.SilkS")
 			(uuid "becb3465-0361-4bde-86eb-718b66ef91ee")
 			(effects
 				(font
@@ -4112,7 +4112,7 @@
 		)
 		(property "Value" "22k"
 			(at 5.08 2.37 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "fc2e868b-9d53-4e25-8cac-37e9f96c65d4")
 			(effects
 				(font
@@ -6244,7 +6244,7 @@
 		)
 		(property "Value" "220"
 			(at 5.08 2.37 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "4a91fd8f-0999-4ced-a26b-c229d395adad")
 			(effects
 				(font
@@ -8221,7 +8221,7 @@
 		)
 		(property "Value" "4N25"
 			(at 3.81 7.41 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "294a0d9b-da93-483b-95ed-700119265c59")
 			(effects
 				(font
@@ -8383,7 +8383,7 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.81 2.54 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "06d6d03f-b959-45a8-a1f4-7099e85d61c5")
 			(effects
 				(font
@@ -9304,7 +9304,7 @@
 		)
 		(property "Value" "220"
 			(at 5.08 2.37 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "1e45fcca-a56c-4c2f-a0ea-486496a0b6c7")
 			(effects
 				(font
@@ -9567,7 +9567,7 @@
 		)
 		(property "Value" "22k"
 			(at 5.08 2.37 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "2ec8bb41-998c-43f7-894c-5f0564b21138")
 			(effects
 				(font
@@ -10093,7 +10093,7 @@
 		)
 		(property "Value" "330"
 			(at 5.08 2.37 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "b334fdae-8c24-4d11-baf9-005feefe0acd")
 			(effects
 				(font
@@ -10356,7 +10356,7 @@
 		)
 		(property "Value" "22k"
 			(at 5.08 2.37 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "a0b4fd0b-6024-40c3-8ff5-5b682bc718bf")
 			(effects
 				(font
@@ -11433,6 +11433,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Sump Pump Monitor V1.0\nTJK RAK 04/03/2025"
+		(at 157.48 76.2 0)
+		(layer "F.SilkS")
+		(uuid "4821d381-e6ba-4597-b8f8-22d773964433")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "-\n"
 		(at 220.726 62.23 90)
 		(layer "F.SilkS")
@@ -11473,6 +11485,30 @@
 		(at 140.97 26.67 90)
 		(layer "F.SilkS")
 		(uuid "74f89564-d055-46ec-bb70-7f99f945f6a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "I2C"
+		(at 133.604 19.812 0)
+		(layer "F.SilkS")
+		(uuid "93d46880-7c55-4c0f-99dc-02243f410930")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MODE"
+		(at 202.438 43.18 0)
+		(layer "F.SilkS")
+		(uuid "a051b2df-4210-46d8-91b3-b7afcee4ab3b")
 		(effects
 			(font
 				(size 1 1)
