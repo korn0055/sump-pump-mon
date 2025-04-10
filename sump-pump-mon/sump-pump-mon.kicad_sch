@@ -4489,6 +4489,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "IS MODE SWITCH RIGHT?\nDOES IT NEED TO GO TO 2 CONNECTORS???"
+		(exclude_from_sim no)
+		(at 324.358 127.508 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 13 1)
+			)
+		)
+		(uuid "0cc39cff-aaa5-4241-9fe8-fdf38987f571")
+	)
 	(text "Stemma = JST SH (2 mm pitch)\nStemma QT / Qwiic = JST PH (1 mm pitch)\n1 - GND\n2 - VCC\n3 - SDA\n4 - SCL\n"
 		(exclude_from_sim no)
 		(at 159.766 -2.286 0)
