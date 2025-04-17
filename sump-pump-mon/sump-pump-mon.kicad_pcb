@@ -100,8 +100,8 @@
 	(net 19 "Mode")
 	(net 20 "GND")
 	(net 21 "Net-(A1B-D2)")
-	(net 22 "Aux_Input")
-	(net 23 "Main_Input")
+	(net 22 "Yellow_Button")
+	(net 23 "Green_Button")
 	(net 24 "LED_6V")
 	(net 25 "unconnected-(U2-Pad6)")
 	(net 26 "unconnected-(U2-NC-Pad3)")
@@ -732,7 +732,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "Main_Input")
+			(net 23 "Green_Button")
 			(pintype "passive")
 			(uuid "1edeefe6-4ba7-4a5e-ace6-a4530f971dbe")
 		)
@@ -6783,7 +6783,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "Aux_Input")
+			(net 22 "Yellow_Button")
 			(pinfunction "D5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
@@ -6795,7 +6795,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "Main_Input")
+			(net 23 "Green_Button")
 			(pinfunction "D6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
@@ -7323,7 +7323,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "Main_Input")
+			(net 23 "Green_Button")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "32249869-3249-40cf-bd65-7c7f0e969407")
@@ -7345,7 +7345,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "Aux_Input")
+			(net 22 "Yellow_Button")
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(uuid "73e39dcd-beaf-496a-8c77-0069adbb512e")
@@ -7679,7 +7679,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "Aux_Input")
+			(net 22 "Yellow_Button")
 			(pintype "passive")
 			(uuid "663bb9b0-315c-429d-afc2-6b8973ce83a6")
 		)
@@ -9996,7 +9996,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "Aux_Input")
+			(net 22 "Yellow_Button")
 			(pintype "passive")
 			(uuid "72ef7822-855a-41f6-8c4e-fc1b7158a762")
 		)
@@ -11197,7 +11197,7 @@
 		(property "Reference" "R5"
 			(at -2.032 -0.084826 180)
 			(layer "B.SilkS")
-			(uuid "838aa458-bc6d-46a4-a955-0777b2929408")
+			(uuid "85ee7d1b-9453-41a8-a230-366da2932d5a")
 			(effects
 				(font
 					(size 1 1)
@@ -11209,7 +11209,7 @@
 		(property "Value" "22k"
 			(at 11.938 0.169174 180)
 			(layer "B.SilkS")
-			(uuid "e59b988d-4d44-48c2-bce9-5c34a8261c6f")
+			(uuid "0dc4f137-d1ed-42d2-b86a-ba709b8d1f40")
 			(effects
 				(font
 					(size 1 1)
@@ -11223,7 +11223,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9da3a6c2-d1bf-43b5-8d97-b8c260924e94")
+			(uuid "1c77319b-0f70-4dfd-b546-f63e1db38c83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,7 +11237,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9d2d97d4-5523-4a47-ae5a-0cfdf588c7c4")
+			(uuid "2ef88885-94be-46f8-8a2e-1fa845988feb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11439,7 +11439,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "Main_Input")
+			(net 23 "Green_Button")
 			(pintype "passive")
 			(uuid "4d2dda78-517a-4ea0-8688-12c6b0129717")
 		)
@@ -12338,6 +12338,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 157 49 0)
+		(layer "F.SilkS")
+		(uuid "115f2773-620c-4cd2-a372-d4df1d9547f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Vin"
 		(at 119.38 51.054 270)
 		(layer "F.SilkS")
@@ -12354,6 +12366,18 @@
 		(at 202.438 36.576 90)
 		(layer "F.SilkS")
 		(uuid "22384157-bc0e-4165-b777-d509a56fd489")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3.3v"
+		(at 157 36.5 0)
+		(layer "F.SilkS")
+		(uuid "23831cce-0394-465a-8141-40158e89a13d")
 		(effects
 			(font
 				(size 1 1)
@@ -12410,6 +12434,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Led3"
+		(at 157 41 0)
+		(layer "F.SilkS")
+		(uuid "4afe6bf7-2ea1-4d64-9f20-abc89d429aaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "-\n"
 		(at 210.312 60.96 180)
 		(layer "F.SilkS")
@@ -12418,6 +12454,43 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Led2\n"
+		(at 156.5 54 0)
+		(layer "F.SilkS")
+		(uuid "4d80e59d-fc23-41c2-bd08-0a995deb1feb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 157 46.5 0)
+		(layer "F.SilkS")
+		(uuid "566dabdd-8269-4f15-b881-ba55248cad1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Led5"
+		(at 158 33.5 0)
+		(layer "F.SilkS")
+		(uuid "57f2bd45-1e7a-42be-b213-b14efddc774a")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -12482,6 +12555,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Sw1"
+		(at 156.5 56.5 0)
+		(layer "F.SilkS")
+		(uuid "99696d6e-0c01-4e6b-85dd-1ce671d30888")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Led4"
+		(at 157 38.5 0)
+		(layer "F.SilkS")
+		(uuid "a0476fef-0c67-4f73-a2b3-f5bf2ff9f543")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "AUX"
 		(at 202.438 47.244 90)
 		(layer "F.SilkS")
@@ -12498,6 +12595,18 @@
 		(at 118.618 50.038 0)
 		(layer "F.SilkS")
 		(uuid "bdb1f5fd-0875-4e71-a890-e622f2ab69c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Sw3"
+		(at 156.5 59 0)
+		(layer "F.SilkS")
+		(uuid "c0842720-0d39-4939-bb72-21edcd1a0224")
 		(effects
 			(font
 				(size 1 1)
@@ -12528,6 +12637,45 @@
 				(thickness 0.15)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Led1\n"
+		(at 158 61.5 0)
+		(layer "F.SilkS")
+		(uuid "ea173141-4a94-4045-9b35-3af2c2088897")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Led6"
+		(at 158 44 0)
+		(layer "F.SilkS")
+		(uuid "ed5c9f97-d17d-4950-89b9-2cba3570b59d")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Sw2"
+		(at 158 51.5 0)
+		(layer "F.SilkS")
+		(uuid "f88f6e35-ec6e-49c5-966e-a43cfb2c1086")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "I2C\nStemma\nQT"
